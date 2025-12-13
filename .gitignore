@@ -21,3 +21,6 @@ Thumbs.db
 
 # Crash reports
 sysinfo.txt
+
+UserSettings/
+.vsconfig
