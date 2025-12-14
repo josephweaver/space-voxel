@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c24ba70fd5f45446b3e618f8ec946b4, type: 3}
+  m_Name: Volcanic
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceVoxel.Materials.PlanetProfileSO
+  TempBand: 2
+  PressureBand: 1
+  AtmoChem: 2
+  Hydrosphere: 0
+  WeightMetal: 1.2
+  WeightStoneSilicate: 2
+  WeightSedimentaryCarbon: 0.4
+  WeightLiquid: 0.3
+  WeightGas: 1.4
+  PlanetSeed: 12345

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2229e0ca50695154f8f3a20dceb0879f, type: 3}
+  m_Name: Gas
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceVoxel.Materials.MaterialCategoryTemplateSO
+  Category: 0
+  Strength:
+    Mean: 0
+    Spread: 0
+  MaxTemperature:
+    Mean: 0.15
+    Spread: 0.12
+  ThermalConductivity:
+    Mean: 0.2
+    Spread: 0.1
+  ElectricalConductivity:
+    Mean: 0.1
+    Spread: 0.1
+  EnergyPotential:
+    Mean: 0.55
+    Spread: 0.15
+  ErosionResistance:
+    Mean: 0
+    Spread: 0
+  CorrosionResistance:
+    Mean: 0.4
+    Spread: 0.15
+  Density:
+    Mean: 0.1
+    Spread: 0.05
+  Manufacturability:
+    Mean: 0.6
+    Spread: 0.12
+  DominantCandidates: 0700000005000000
+  WeaknessCandidates: 0600000001000000
+  SubtypeAdjustments:
+  - Subtype: 11
+    Strength: 0
+    MaxTemperature: 0
+    ThermalConductivity: 0
+    ElectricalConductivity: 0
+    EnergyPotential: 0
+    ErosionResistance: 0
+    CorrosionResistance: 0.15
+    Density: 0
+    Manufacturability: 0
+  - Subtype: 12
+    Strength: 0
+    MaxTemperature: 0
+    ThermalConductivity: 0
+    ElectricalConductivity: 0.05
+    EnergyPotential: 0
+    ErosionResistance: 0
+    CorrosionResistance: -0.2
+    Density: 0
+    Manufacturability: -0.05

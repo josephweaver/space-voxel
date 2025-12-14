@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 363469418}
   - component: {fileID: 363469417}
   - component: {fileID: 363469416}
+  - component: {fileID: 363469420}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -439,6 +440,20 @@ Transform:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &363469420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363469415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304d653085141a44bbde8de939ba25bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrototypeComponentSpawner
+  cameraTransform: {fileID: 330585546}
+  spawnDistance: 2
 --- !u!1 &377769136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,11 +1230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ComponentSelectorUI
   content: {fileID: 2123592451}
   tilePrefab: {fileID: 4333972392584537276, guid: 027b18ab44000c943aee6220658f0f64, type: 3}
-  labels:
-  - Propulsion
-  - Component B
-  - Component C
-  - Component D
+  categories:
+  - {fileID: 11400000, guid: fc30fd64b749bdf4b8d3f1e973ec8f6d, type: 2}
+  spawner: {fileID: 363469420}
 --- !u!114 &1384187775
 MonoBehaviour:
   m_ObjectHideFlags: 0
